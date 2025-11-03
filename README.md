@@ -4,7 +4,7 @@
 git clone {원격 레포지토리 주소}
 
 
-# 🔀 branch convention
+## 🔀 branch convention
 ```
 ├─main
     ├─이름/main
@@ -13,7 +13,7 @@ git clone {원격 레포지토리 주소}
 ```
 각자 `main` 브랜치 아닌 `main/이름` 브랜치로 올리고, PR merge 대상도 `main/이름` 브랜치
 
-# 📁 directory convention
+## 📁 directory convention
 ```
 algorithms-study/
 │
@@ -35,7 +35,7 @@ algorithms-study/
 ```
 기본적인 틀 안에서 자유롭게..
 
-# commit convention
+## commit convention
 
 `
 작업종류(#이슈번호): 사이트명-번호 문제제목
@@ -58,7 +58,7 @@ git commit -m "feat: BOJ-1000 두 수의 합 구현"
 `
 
 --- 
-# Git 명령어
+## Git 명령어
 
 ### Add
 `git add "file name"`
